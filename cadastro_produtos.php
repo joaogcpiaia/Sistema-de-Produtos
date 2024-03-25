@@ -19,8 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bindParam(':fornecedor_id', $fornecedor_id);
 
     if ($stmt->execute()) {
-        header("Location: cadastro_produtos.php?success=1");
-        exit();
+        echo "<script>alert('Produto cadastrado com sucesso.');</script>";
     } else {
         echo "Erro ao cadastrar o produto.";
     }
