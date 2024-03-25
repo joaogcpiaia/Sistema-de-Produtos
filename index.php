@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if (isset($_SESSION['logged_in'])) {
+    header("Location: pagina_principal.php");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
