@@ -1,6 +1,7 @@
 <?php
 require_once 'conexao.php';
 
+$query = "SELECT id, nome FROM fornecedores";
 $stmt = $db->prepare($query);
 $stmt->execute();
 $fornecedores = $stmt->fetchAll(PDO::FETCH_ASSOC);
