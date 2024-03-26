@@ -8,7 +8,7 @@ if (isset($_SESSION['logged_in'])) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
