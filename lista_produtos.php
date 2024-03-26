@@ -12,7 +12,7 @@
 <nav class="bg-blue-500 text-white py-4">
     <div class="container mx-auto">
         <ul class="flex justify-center flex-wrap">
-            <li class="mx-4 my-2"><a href="pagina_principal.php" class="hover:text-gray-300">Página Principal</a></li>
+            <li class="mx-4 my-2"><a href="lista_produtos.php" class="hover:text-gray-300">Lista de Produtos</a></li>
             <li class="mx-4 my-2"><a href="cadastro_usuarios.html" class="hover:text-gray-300">Cadastro de Usuários</a></li>
             <li class="mx-4 my-2"><a href="cadastro_produtos_front.php" class="hover:text-gray-300">Cadastro de Produtos</a></li>
             <li class="mx-4 my-2"><a href="cadastro_fornecedores.html" class="hover:text-gray-300">Cadastro de Fornecedores</a></li>
